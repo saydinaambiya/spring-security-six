@@ -12,6 +12,7 @@ import java.io.Serializable;
 @Getter
 @MappedSuperclass
 public abstract class BaseEntity implements Serializable {
+    //Strategy for increment ID
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 }
