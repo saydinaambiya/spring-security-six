@@ -1,4 +1,4 @@
-package com.example.springsecuritysix.secutity;
+package com.example.springsecuritysix.secutity.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
